@@ -1,0 +1,417 @@
+:root {
+  --dark-color: #13193d;
+  --blue-color: #3ccdfd;
+  --green-color: #1abd4bf3;
+  --grayo-color: rgba(255, 255, 255, 0.75);
+  --gray-color: #c2c1c1;
+  --border-color: #9b9b9b;
+}
+
+body {
+  background-image: url(img/detail-shot-modern-architecture-facade.jpg);
+}
+
+#ic1 {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 60vh;
+  justify-content: space-between;
+}
+
+.navbar {
+  font-family: "Mynerve", cursive;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.navbar-brand h1 {
+  font-family: "Pacifico", cursive;
+  padding-left: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-brand h1 span {
+  color: #1abd4bf3;
+}
+
+.nav-item .activee {
+  color: #1abd4bf3;
+  transition: all 0.7s;
+  font-size: 20px;
+}
+
+.nav-item .activee:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-item .nav-link.activeee {
+  transition: all 0.7s;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+}
+
+.nav-item .nav-link.activeee:hover {
+  color: #1abd4bf3;
+}
+
+.container-fluid .navbar-toggler {
+  color: rgb(235, 235, 235);
+  border: none;
+}
+
+.container-fluid .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.container-fluid .navbar-toggler[aria-expanded="true"] {
+  color: #16a842;
+  transition: all 0.7s;
+}
+
+.t {
+  width: 105vw;
+  height: 60vh;
+}
+
+.card2 {
+  font-family: "Mynerve", cursive;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card2 h2 {
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.card2 p {
+  font-size: 20px;
+}
+
+.card2 svg {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+/*Start Welcome Page*/
+header.masthead {
+  height: 100vh;
+  min-height: 40rem;
+  padding-top: 4.5rem;
+  padding-bottom: 0;
+  font-family: "Mynerve", cursive;
+}
+header.masthead {
+  padding-top: 7.5rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url(img/detail-shot-modern-architecture-facade.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.h-100 {
+  height: 100%;
+}
+
+.roww {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #1abd4bf3;
+  opacity: 1;
+  border: 0;
+  border-radius: 15px;
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-xl {
+  padding: 0.5rem 2.2rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: 2px  solid;
+  border-radius: 10rem;
+}
+
+.tt a {
+  font-family: "Mynerve", cursive;
+  line-height: 23px;
+}
+
+.tt a svg {
+  font-size: large;
+}
+
+.btn-primaryy {
+  color: #fff;
+  background-color: #1abd4bf3;
+  border-color: #1abd4bf3;
+  font-size: 20px;
+
+}
+
+.bttn {
+  display: inline-block;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+}
+
+.gh h1 {
+  font-size: 80px;
+  line-height: 6rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.gh p {
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* End Welcome Page */
+
+/* Start Projects Page */
+
+.project_page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.st svg {
+  font-size: 26px;
+  color: #1abd4b;
+}
+
+.st h2 {
+  font-family: "Mynerve", cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #717980;
+}
+
+.st h2 span {
+  color: #1abd4b;
+}
+
+.st p {
+  font-family: "Mynerve", cursive;
+  text-align: center;
+  width: 70vw;
+  font-size: 20px;
+  color: #8a959c;
+}
+
+body .c {
+  /* background-color: var(--gray-color); */
+  padding: 2.5rem;
+  margin-right: 0px;
+}
+
+.c .card::before {
+  content: attr(data-project);
+  position: absolute;
+  text-align: center;
+  background-color: #0e9e56af;
+  color: #272b2e;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  font-family: "Mynerve", cursive;
+  font-weight: bolder;
+  align-items: center;
+  transition: 0.3s;
+  font-size: 35px;
+  transform: translateX(calc(-100% - 5px));
+}
+
+.c .card:hover::before {
+  transform: translateX(0);
+}
+
+.c .card {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+  background-color: #8a959c;
+  border: none;
+}
+
+.c .b-project {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.b-project button {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #1abd4bf3;
+  color: #363c42;
+  font-family: "Mynerve", cursive;
+  border-radius: 8rem;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 2px #1abd4b;
+  transition: 0.5s;
+}
+
+.b-project button:hover {
+  background-color: transparent;
+  color: #1abd4b;
+}
+
+/* End Projects Page */
+
+/* Start Feedback Page */
+
+.feedback_page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.row .kk {
+  height: 70vh;
+  margin-bottom: 0%;
+}
+
+.sst svg {
+  font-size: 26px;
+  color: #a37425;
+}
+
+.sst h2 {
+  font-family: "Mynerve", cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #717980;
+}
+
+.sst h2 span {
+  color: #a37425;
+}
+
+.sst p {
+  font-family: "Mynerve", cursive;
+  text-align: center;
+  width: 70vw;
+  font-size: 20px;
+  color: #8a959c;
+}
+
+.card-img-botom {
+  width: 35%;
+}
+
+.kk .card {
+  background-color: #a37525b6;
+  border: solid 1.5px #413114;
+  border-radius: 20px;
+  padding: 20px;
+  height: 60vh;
+  font-family: "Mynerve", cursive;
+}
+
+.ic {
+  position: relative;
+  bottom: 165px;
+  right: 120px;
+  font-size: 35px;
+}
+
+.ic3 {
+  position: relative;
+  top: 0px;
+  left: 110px;
+  font-size: 35px;
+}
+
+.bt {
+  line-height: 25px;
+}
+
+.bt button {
+  background-color: #a37425;
+  border-color: #a37425;
+  color: #212529ef;
+}
+
+.bt button:hover {
+  background-color: transparent;
+  color: #a37425;
+}
+
+.slide .carousel-indicators {
+  top: 380px;
+  height: 20px;
+  position: relative;
+}
+
+/* End Feedback Page */
+
+/* Start Footer page */
+
+footer {
+  padding-top: 18px;
+  padding-bottom: 0px;
+  font-family: "Mynerve", cursive;
+}
+
+.footer-07 {
+  background: #121212;
+}
+.footer-07 a {
+  color: #a37425;
+  text-decoration: none;
+}
+.footer-07 p {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-07 .footer-heading .logo {
+  color: #a37425;
+}
+
+.con svg {
+  color: #a37425;
+  font-size: 20px;
+}
+
+/* End Footer page */

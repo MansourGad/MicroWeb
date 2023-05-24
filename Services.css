@@ -1,0 +1,205 @@
+/* Start Nav */
+.navbar {
+  font-family: "Mynerve", cursive;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.navbar-brand h1 {
+  font-family: "Pacifico", cursive;
+  padding-left: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-brand h1 span {
+  color: #1abd4bf3;
+}
+
+.nav-item .activee {
+  color: #1abd4bf3;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+
+.nav-item .activee:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-item .nav-link.activeee {
+  transition: all 0.5s;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+}
+
+.nav-item .nav-link.activeee:hover {
+  color: #1abd4bf3;
+}
+
+.container-fluid .navbar-toggler {
+  color: rgb(235, 235, 235);
+  border: none;
+}
+
+.container-fluid .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.container-fluid .navbar-toggler[aria-expanded="true"] {
+  color: #16a842;
+  transition: all 0.7s;
+}
+
+/* End Nav */
+
+/* Start Services Page */
+
+.services_page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.st svg {
+  font-size: 35px;
+  color: #1abd4b;
+}
+
+.st h2 {
+  font-family: "Mynerve", cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #717980;
+}
+
+.st h2 span {
+  color: #1abd4b;
+}
+
+.st p {
+  font-family: "Mynerve", cursive;
+  text-align: center;
+  font-size: 20px;
+  color: #8a959c;
+}
+
+body .card_a {
+  font-family: "Mynerve", cursive;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.822);
+  border-radius: 20px;
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+body .card_a:hover {
+  transform: scale(1.1);
+}
+
+.card_a svg {
+  font-size: 60px;
+  color: #1abd4b;
+}
+
+.card_a h5 {
+  color: #717980;
+  font-weight: 600;
+}
+
+.card_a p {
+  color: #8a959c;
+}
+
+/* End Services Page */
+
+/* Start Advantages Page */
+
+.advantages-page {
+  text-align: start;
+  font-family: "Mynerve", cursive;
+  font-weight: bold;
+}
+
+.se svg {
+  color: rgb(34, 117, 194);
+  font-size: 35px;
+}
+
+.advantages-page p {
+  padding-left: 14px;
+  color: #8a959c;
+}
+
+.advantages-page h2 {
+  font-weight: bolder;
+  color: #717980;
+}
+
+.advantages-page h2 span {
+  color: rgb(34, 117, 194);
+}
+
+.list-r {
+  padding-left: 1.5rem;
+}
+
+.list {
+  width: 70vw;
+  font-family: "Mynerve", cursive;
+  color: #717980;
+  font-weight: bolder;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.mini-list {
+  margin-left: 50px;
+}
+
+.mini-list2 {
+  margin-left: 50px;
+}
+
+.hr1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr1 hr {
+  width: 40vh;
+  color: rgb(34, 117, 194);
+  border-top: 3px solid rgb(34, 117, 194);
+  border-radius: 20px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+/* End Advantages Page */
+
+/* Start Footer page */
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-family: "Mynerve", cursive;
+}
+
+.footer-07 a {
+  color: rgb(34, 117, 194);
+  text-decoration: none;
+}
+.footer-07 p {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-07 .footer-heading .logo {
+  color: rgb(34, 117, 194);
+}
+
+.con svg {
+  color: rgb(34, 117, 194);
+  font-size: 20px;
+}
+
+/* End Footer page */

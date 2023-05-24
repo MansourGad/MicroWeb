@@ -1,0 +1,382 @@
+/* *{
+  padding: 0%;
+  margin: 0%;
+} */
+
+/* Start Nav */
+.navbar {
+  font-family: "Mynerve", cursive;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.navbar-brand h1 {
+  font-family: "Pacifico", cursive;
+  padding-left: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-brand h1 span {
+  color: #6c5ac7;
+}
+
+.nav-item .activee {
+  color: #6c5ac7;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+
+.nav-item .activee:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-item .nav-link.activeee {
+  transition: all 0.5s;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+}
+
+.nav-item .nav-link.activeee:hover {
+  color: #6c5ac7;
+}
+
+.container-fluid .navbar-toggler {
+  color: rgb(235, 235, 235);
+  border: none;
+}
+
+.container-fluid .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.container-fluid .navbar-toggler[aria-expanded="true"] {
+  color: #6c5ac7;
+  transition: all 0.4s;
+}
+
+/* End Nav */
+
+/* Start Contact Page */
+
+.contact_page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.st svg {
+  font-size: 35px;
+  color: #6c5ac7;
+}
+
+.st h2 {
+  font-family: "Mynerve", cursive;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #717980;
+}
+
+.st h2 span {
+  color: #6c5ac7;
+}
+
+.st p {
+  font-family: "Mynerve", cursive;
+  text-align: center;
+  font-size: 20px;
+  color: #8a959c;
+}
+
+.cor {
+  font-family: "Mynerve", cursive;
+}
+
+.All {
+  background-color: #000000a2;
+  border-radius: 20px;
+  margin-bottom: 0px;
+}
+
+.rt1 svg {
+  color: #5c518d;
+  font-size: 35px;
+}
+
+.wrap-contact100 h3 {
+  color: #5c518d;
+  font-size: 32px;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #bdbdd3;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #bdbdd3;
+}
+
+button {
+  outline: none !important;
+  border: none;
+}
+
+.container-contact100 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.contact100-form-title {
+  display: block;
+  font-size: 30px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 49px;
+}
+
+.wrap-input100 {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 31px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.input100 {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 31px;
+  font-size: 18px;
+  color: #8f8fa1;
+  line-height: 1.2;
+}
+
+input.input100 {
+  height: 62px;
+  padding: 0 35px;
+  width: 31vw;
+  font-weight: bold;
+}
+
+textarea.input100 {
+  min-height: 169px;
+  padding: 19px 35px 0;
+  font-weight: bold;
+}
+
+.focus-input100 {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 31px;
+  background-color: #fff;
+  transition: all 0.4s;
+}
+
+.input100:focus + .focus-input100 {
+  width: calc(100% + 20px);
+}
+
+.container-contact100-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.contact100-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 150px;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 31px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+  font-family: "Mynerve", cursive;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.contact100-form-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+
+  transform: translateX(-50%);
+  border-radius: 31px;
+  background-color: #876ffd;
+  pointer-events: none;
+
+  transition: all 0.4s;
+}
+
+.contact100-form-btn:hover:before {
+  background-color: #403866;
+  width: calc(100% + 20px);
+}
+
+.validate-input {
+  position: relative;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.main ol {
+  width: 350px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.main .rt2 svg {
+  color: #4f4480;
+  font-size: 30px;
+}
+
+.main ol h2 {
+  color: #4f4480;
+  font-size: 32px;
+}
+
+ol li {
+  font-size: 1.2rem;
+  padding: 20px 30px;
+  margin: 10px 0;
+  background: rgb(23, 23, 23);
+  z-index: 100;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+ol li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.4s;
+}
+ol li:hover::before {
+  width: 100%;
+}
+ol li:nth-child(1)::before {
+  background: #4285f4;
+}
+ol li:nth-child(2)::before {
+  background: #4285f4;
+}
+
+ol li:nth-child(3)::before {
+  background: #4285f4;
+}
+
+ol li:nth-child(4)::before {
+  background: #db4437;
+}
+ol li:nth-child(5)::before {
+  background: #f4b400;
+}
+ol li:nth-child(6)::before {
+  background: #0f9d58;
+}
+
+ol li:hover {
+  transform: translateX(20px);
+}
+
+.main svg {
+  font-size: 28px;
+  padding-right: 2px;
+  color: #2c2f31;
+}
+
+li a {
+  font-weight: bolder;
+  font-size: 22px;
+  text-decoration: none;
+  color: #2c2f31;
+  font-family: "Mynerve", cursive;
+}
+
+.cr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000a2;
+  width: 90vw;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.conty{
+  background-color: #000000a2;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.conty svg{
+  font-size: 27px;
+  color: #4f4480;
+  margin-right: 0px;
+}
+
+.conty p{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mynerve", cursive;
+}
+
+.conty p span{
+  color: #4f4480;
+}
+
+.conty1 i, p{
+display: inline-block;
+}
+
+
+
+/* End Contact Page */
