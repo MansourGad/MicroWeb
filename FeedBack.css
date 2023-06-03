@@ -1,0 +1,86 @@
+
+.looby {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.looby-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 11px 5px 11px;
+  font-size: 20px;
+  font-family: "Mynerve", cursive;
+  font-weight: bolder;
+  border-radius: 11px;
+  border: 1px solid rgba(22, 22, 22, 0.753);
+  color: #724e11;
+  background-color: rgba(22, 22, 22, 0.753);
+  transition: all 0.7s;
+}
+
+.looby-btn:hover{
+background-color: transparent;
+border-color: #724e11;
+}
+
+.close{
+  border: none;
+  background-color: transparent;
+}
+
+.close svg{
+  color: #0d6efd;
+  font-size: 28px;
+}
+
+.modal-header h3{
+  font-family: "Mynerve", cursive;
+  font-weight: bolder;
+  margin-bottom: 0rem;
+}
+
+h3 span{
+  color: #0d6efd;
+}
+
+.head{
+  font-family: "Mynerve", cursive;
+
+}
+
+.head svg{
+  color: #0d6efd;
+}
+
+.radio-btn h5{
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.radio-btn{
+  font-weight: bold;
+  font-family: "Mynerve", cursive;
+  font-size: large;
+}
+
+.modal-dialog .parent{
+  background-color: rgba(224, 224, 224, 0.911);
+  border-radius: 13px;
+}
+
+.textarea {
+  display: flex;
+  justify-content: center;
+}
+
+textarea{
+  padding-left: 8px;
+  padding-top: 6px;
+  border-radius: 11px;
+  border: 1.5px solid #0d6efd;
+  outline: none;
+}
